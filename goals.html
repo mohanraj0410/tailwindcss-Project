@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
+  <body>
+    <body
+      class="bg-zinc-100 min-h-screen flex flex-col items-center justify-center p-4"
+    >
+      <div class="w-full max-w-md bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-lg font-semibold text-zinc-800 mb-4">
+          What are your goals?
+        </h2>
+        <form id="goals-form" class="space-y-4">
+          <label
+            class="flex items-center justify-between p-2 bg-zinc-100 rounded-lg"
+          >
+            <span class="text-zinc-800">Weight Loss</span>
+            <input
+              type="checkbox"
+              name="goals"
+              value="weight-loss"
+              class="form-checkbox h-5 w-5 text-blue-600 rounded"
+            />
+          </label>
+          <label
+            class="flex items-center justify-between p-2 bg-zinc-100 rounded-lg"
+          >
+            <span class="text-zinc-800">Muscle Gain</span>
+            <input
+              type="checkbox"
+              name="goals"
+              value="muscle-gain"
+              class="form-checkbox h-5 w-5 text-blue-600 rounded"
+            />
+          </label>
+          <label
+            class="flex items-center justify-between p-2 bg-zinc-100 rounded-lg"
+          >
+            <span class="text-zinc-800">Flexibility and Mobility</span>
+            <input
+              type="checkbox"
+              name="goals"
+              value="flexibility-mobility"
+              class="form-checkbox h-5 w-5 text-blue-600 rounded"
+            />
+          </label>
+          <label
+            class="flex items-center justify-between p-2 bg-zinc-100 rounded-lg"
+          >
+            <span class="text-zinc-800">General Fitness</span>
+            <input
+              type="checkbox"
+              name="goals"
+              value="general-fitness"
+              class="form-checkbox h-5 w-5 text-blue-600 rounded"
+            />
+          </label>
+          <label
+            class="flex items-center justify-between p-2 bg-zinc-100 rounded-lg"
+          >
+            <span class="text-zinc-800">Event - specific training</span>
+            <input
+              type="checkbox"
+              name="goals"
+              value="event-training"
+              class="form-checkbox h-5 w-5 text-blue-600 rounded"
+            />
+          </label>
+          <label
+            class="flex items-center justify-between p-2 bg-zinc-100 rounded-lg"
+          >
+            <span class="text-zinc-800">Mindfulness and Mental Health</span>
+            <input
+              type="checkbox"
+              name="goals"
+              value="mindfulness-mental-health"
+              class="form-checkbox h-5 w-5 text-blue-600 rounded"
+            />
+          </label>
+          <button
+            type="submit"
+            class="w-full py-3 mt-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75"
+          >
+            <a href="page3.html">Confirm</a>
+          </button>
+        </form>
+      </div>
+    </body>
+  </body>
+</html>
